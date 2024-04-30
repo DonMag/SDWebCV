@@ -14,3 +14,19 @@ class ImageCell: UICollectionViewCell {
 	
 }
 
+class MyImageCell: UICollectionViewCell {
+	
+	@IBOutlet var imageContentView: MyImageView!
+	@IBOutlet var imgHeight: NSLayoutConstraint!
+	
+}
+
+class MyTextCell: UICollectionViewCell {
+	@IBOutlet var theLabel: UILabel!
+	
+	func delayedText(str: String) {
+		DispatchQueue.main.asyncAfter(deadline: .now() + 0.1, execute: {
+			self.theLabel.text = str
+		})
+	}
+}

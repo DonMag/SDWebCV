@@ -16,6 +16,8 @@
 		FCC397812BDBC73F00DA43D0 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FCC397802BDBC73F00DA43D0 /* SDWebImage */; };
 		FCC397842BDBC88D00DA43D0 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC397822BDBC88D00DA43D0 /* ImageCell.swift */; };
 		FCC397872BDBE0D300DA43D0 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC397862BDBE0D300DA43D0 /* ImageCell.xib */; };
+		FCC3978D2BDFCF5900DA43D0 /* MyImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC3978C2BDFCF5900DA43D0 /* MyImageCell.xib */; };
+		FCC3978F2BE115A900DA43D0 /* MyTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC3978E2BE115A900DA43D0 /* MyTextCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		FCC397792BDBC71300DA43D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC397822BDBC88D00DA43D0 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		FCC397862BDBE0D300DA43D0 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		FCC3978C2BDFCF5900DA43D0 /* MyImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyImageCell.xib; sourceTree = "<group>"; };
+		FCC3978E2BE115A900DA43D0 /* MyTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTextCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				FCC3976F2BDBC71200DA43D0 /* ViewController.swift */,
 				FCC397822BDBC88D00DA43D0 /* ImageCell.swift */,
 				FCC397862BDBE0D300DA43D0 /* ImageCell.xib */,
+				FCC3978C2BDFCF5900DA43D0 /* MyImageCell.xib */,
+				FCC3978E2BE115A900DA43D0 /* MyTextCell.xib */,
 				FCC397712BDBC71200DA43D0 /* Main.storyboard */,
 				FCC397742BDBC71300DA43D0 /* Assets.xcassets */,
 				FCC397762BDBC71300DA43D0 /* LaunchScreen.storyboard */,
@@ -139,9 +145,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC3978D2BDFCF5900DA43D0 /* MyImageCell.xib in Resources */,
 				FCC397872BDBE0D300DA43D0 /* ImageCell.xib in Resources */,
 				FCC397782BDBC71300DA43D0 /* LaunchScreen.storyboard in Resources */,
 				FCC397752BDBC71300DA43D0 /* Assets.xcassets in Resources */,
+				FCC3978F2BE115A900DA43D0 /* MyTextCell.xib in Resources */,
 				FCC397732BDBC71200DA43D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
